@@ -1,3 +1,13 @@
+'@#$!@#$@!#$Progress### << ///Mar_2024..??>> @ @#$@%#!@%!Saving??@!#$@!#$@!#$!@#$@!#$
+'!!!!! don't stay at one part for more than 1 weekds...!!!!
+'!!!!! proceed as you go through by commenting .. for furhter refirinement..
+'//..//...//..//...//..//..//..//...//
+'C:\Users\User\AppData\Local\Programs\Python\Python311
+'//..//...//..//...//..//..//..//...//
+
+
+
+
 
 ' Code Examples
 ''Using Programming Languages other than VBA

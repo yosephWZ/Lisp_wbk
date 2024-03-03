@@ -1,16 +1,18 @@
-; //@#$!@#$@!#$Progress### << ///Jan_2023..??>> @ @#$@%#!@%!Saving??@!#$@!#$@!#$!@#$@!#$
-; //!!!!! don't stay at one part for more than 1 weekds...!!!!
-; //!!!!! proceed as you go through by commenting .. for furhter refirinement..
-; //..//...//..//...//..//..//..//...//paly around with it thats how you get it
-; //..//..Code explanation.//..use...//.ChatGPT.//..//..//...//
+; @#$!@#$@!#$Progress### << ///Mar_2024..??>> @ @#$@%#!@%!Saving??@!#$@!#$@!#$!@#$@!#$
+; !!!!! don't stay at one part for more than 1 weekds...!!!!
+; !!!!! proceed as you go through by commenting .. for furhter refirinement..
 ; //..//...//..//...//..//..//..//...//
+; C:\Users\User\AppData\Local\Programs\Python\Python311
+; //..//...//..//...//..//..//..//...//
+
+
 
 #| |#
 
 
-#| 
 ;  Basic Syntax 
-
+(
+ 
 
 	(write-line "Hello World") ; greet the world
 
@@ -34,13 +36,17 @@
 	;single quote used, it inhibits evaluation
 	(* 2 3) 
 
-|#
+|#)
 
 
 
-#| 
 
-;Data types
+
+
+
+
+
+(#| Data types
 
 ;Example 1
 ;Create new source code file named main.lisp and type the following code in it.
@@ -79,11 +85,13 @@
 (print (type-of r))
 
 
-|#
+|#)
 
 
-#| |#
-;Macros
+
+
+
+(#| ;Macros
 
 ;Defining a Macro
 ;(defmacro macro-name (parameter-list))
@@ -104,9 +112,12 @@
 (setq x 25)
 (print x)
 (setTo10 x)
+|#)
 
-#| |#
-;Variables
+
+
+
+(#|  ;Variables
 
 
 ;Global Variables with permanent values 
@@ -137,8 +148,12 @@
 (setq y 200)
 (format t "x = ~2d y = ~2d" x y)
 
-#| |#
-;Local Variables
+|#)
+
+
+
+
+(#|  ;Local Variables
 ;	Local variables are defined within a given procedure. 
 
 
@@ -167,11 +182,12 @@ x = A y = B z = C
 
 x = (A B C) y = (1 2 3) z = (P Q 10)
 
+|#)
 
 
 
-#| |#
-;Constants
+
+(#| ;Constants
 ; constants are variables that never change 
 
 ;Example
@@ -185,9 +201,15 @@ x = (A B C) y = (1 2 3) z = (P Q 10)
   (format t "~%Area: ~10f" (* PI rad rad)))
 (area-circle 10)
 
+|#)
 
-#| |#
-; Operators
+
+
+
+
+
+
+(#| ; Operators
 
 
 ;
@@ -211,9 +233,13 @@ x = (A B C) y = (1 2 3) z = (P Q 10)
 (decf A 4) ;	Modulus Operator and 
 (incf A 3) ;	Increments operator 
 (mod B A ) ;	Decrements operator 
+|#)
 
-#| |#
-;Comparison Operations
+
+
+
+
+(#| ;Comparison Operations
 
 
 
@@ -232,9 +258,11 @@ x = (A B C) y = (1 2 3) z = (P Q 10)
 
 (max A B) ; returns 20
 (min A B) ; returns 20
+|#)
 
-#| |#
-;Logical Operations on Boolean Values
+
+
+(#|  ;Logical Operations on Boolean Values
 
 ;Bitwise Operations on Numbers
 ;Bitwise operators work on bits and perform bit-by-bit operation. The truth tables for bitwise and, or, and xor operations are as follows:
@@ -263,17 +291,13 @@ not A  = 1100 0011
 (logior a b);logxor	This returns the bit-wise logical EXCLUSIVE OR of its arguments. If no argument is given, then the result is zero, which is an identity for this operation.	(logxor a b) will give 49
 (logand a b);lognor	This returns the bit-wise NOT of its arguments. If no argument is given, then the result is -1, which is an identity for this operation.					(lognor a b) will give -62,
 
+|#)
 
-#| |#
-;(#|Decisions
-;
-;)
-;
-;
-;
 
-#| |#
-;Loops
+
+
+
+( #|  ;Loops
 
 ;Gracefully Exiting From a Block
 
@@ -314,11 +338,15 @@ not A  = 1100 0011
 (demo-function t)
 (terpri)
 (demo-function nil)
+|#)
 
 
-#| |#
-;(#|Functions
-;ing Functions in LISP
+
+
+
+
+(#|  Functions
+;defining Functions in LISP
 ;The macro named defun is used for defining functions. The defun macro needs three arguments:
 ;
 ;
@@ -356,15 +384,17 @@ not A  = 1100 0011
 
 
 ;You can provide an empty list as parameters, which means the function takes no arguments, the list is empty, written as ().
+|#)
 
-#| |#
-;Lambda Functions
+
+
+
+(#| ;Lambda Functions
 
 ;
 ;
 ;
 
-#| |#
 ;|Predicates
 
 ;Ceate a new source code file named main.lisp and type the following code in it.
@@ -400,9 +430,10 @@ not A  = 1100 0011
 )
 (setq n 6)
 (format t "~% Factorial ~d is: ~d" n (factorial n))
+|#)
 
-#| |#
-;Numbers
+
+(#| ;Numbers
 
 ;arious Numeric Types in LISP
 ;The following table describes various number type data available in LISP:
@@ -422,9 +453,11 @@ not A  = 1100 0011
 (write ( + (/ 1 2) (/ 3 4)))
 (terpri)
 (write ( + #c( 1 2) #c( 3 -4)))
+|#)
 
-#| |#
-;Number Functions
+
+
+(#| ;Number Functions
 
 ;The following table describes some commonly used numeric functions:
 ;
@@ -486,9 +519,11 @@ not A  = 1100 0011
 (write (realpart c))
 (terpri)
 (write (imagpart c))
+|#)
 
-#| |#
-; Characters
+
+
+(#| ; Characters
 
 
 ;Example
@@ -547,9 +582,11 @@ not A  = 1100 0011
 (write (char-lessp #\a #\b #\c))
 (terpri)
 (write (char-greaterp #\a #\b #\c))
+|#)
 
-#| |#
-; Arrays
+
+
+(#| ; Arrays
 
 
 ;For example, to access the content of the tenth cell, we write:
@@ -703,8 +740,9 @@ not A  = 1100 0011
 
 (adjust-array myarray '(1 3) :initial-element 'b) 
 (write myarray)
+|#
 
-#| |#
+#| 
 ; Strings
 
 
@@ -763,7 +801,9 @@ not A  = 1100 0011
 (terpri)
 (write (string/= "decent" "decency"))
 
-#| |#
+|#
+
+#| 
 ;Case Controlling Functions
 
 ;The following table describes the case controlling functions:
@@ -816,6 +856,7 @@ not A  = 1100 0011
 (terpri)
 (write-line (subseq "Hello World" 6))
 (write (char "Hello World" 6))
+|#
 
 #| |#
 ;Sorting and Merging of Strings
@@ -2047,6 +2088,10 @@ with-open-file (stream filename {options}*)
 ;Where, each error clause is of the form:
 ;
 condition-type ([var]) code)
+
+
+
+
 
 ;Restarting Phase
 ;
